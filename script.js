@@ -771,7 +771,7 @@ function createItemInMiniCart(id) {
         </div>
     `;
 
-    document.querySelector('.innerheart').innerHTML = productItemHTML;
+    document.querySelector('.innerheart').innerHTML += productItemHTML;
 
 }
 
